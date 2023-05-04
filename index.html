@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Главная</title>
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- MAP -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+   <body>
+      <div class="wrapper">
+        <header class="header">
+  <div class="header__container _container">
+    <a data-anim-on-scroll href="" class="header__logo _top_opacity flex-center">
+      <span>G</span>
+    </a>
+    <div class="header__menu menu w-100">
+      <div class="menu__icon">
+        <span></span>
+      </div>
+      <div class="menu__body flex justify-between w-100">
+        <nav>
+          <ul class="menu__list">
+            <li data-anim-on-scroll data-delay="0.2" class="_top_opacity">
+              <a data-goto=".page_section_1"  href="#" class="menu__link _hover-undeline">Услуги</a>
+            </li>
+            <li data-anim-on-scroll data-delay="0.4" class="_top_opacity">
+              <a data-goto=".page__section_2" href="#" class="menu__link _hover-undeline">О нас</a>
+            </li>
+            <li data-anim-on-scroll data-delay="0.6" class="_top_opacity">
+              <a data-goto=".page__section_3" href="#" class="menu__link _hover-undeline">Работы</a>
+            </li>
+            <li data-anim-on-scroll data-delay="0.8" class="_top_opacity">
+              <a data-goto=".page__section_3" href="#" class="menu__link _hover-undeline">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__btns flex justify-between items-center">
+          <div data-anim-on-scroll data-delay="1" class="_top_opacity">
+            <div data-switch data-change-theme class="switch flex-center">
+              <span class="switch__item"></span>
+              <div class="switch__text">Темная версия</div>
+            </div>
+          </div>
+          <div data-anim-on-scroll data-delay="1.2" class="_top_opacity">
+            <a class="header__btns_phone" href="tel:+88008008080">8 800 800 80 80</a>
+          </div>
+          <div data-anim-on-scroll data-delay="1.4" class="_top_opacity">
+            <button data-open-popup="contact" data-close-burger class="header__btns_contact">Оставить заявку</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="contact" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <a data-close-popup href="#" class="popup__close flex-center">X</a>
+      <div class="popup__title">Это модальное окно №1</div>
+    </div>
+  </div>
+</div>
+
+<!-- <li>
+  <button data-open-popup="contact" data-close-burger class="menu__link _hover-undeline">Оставить заявку</button>
+</li> -->
+        <main class="page"> 
+          
+        </main>
+        <footer class="flex-center">
+  <div>Copyright 2023</div>
+</footer>
+      </div>
+      <script src="js/app.min.js"></script>
+   </body>
+</html>
